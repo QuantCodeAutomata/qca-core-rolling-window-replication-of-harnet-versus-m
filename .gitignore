@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.env
+*.egg-info/
+dist/
+build/
+.ipynb_checkpoints/
+data/*.zip
+data/raw/
+# Ignore raw data dumps outside results/ but keep everything under results/
+data/*.csv
+data/*.parquet
+data/*.h5
